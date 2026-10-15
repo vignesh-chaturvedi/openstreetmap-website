@@ -616,6 +616,7 @@ en:
       unsubscribe: "Unsubscribe"
       comment_by_html: "Comment from %{user} %{time_ago}"
       hidden_comment_by_html: "Hidden comment from %{user} %{time_ago}"
+      comment_link: "Link to this comment"
       hide_comment: "hide"
       unhide_comment: "unhide"
       comment: "Comment"

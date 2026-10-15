@@ -416,6 +416,7 @@ class ChangesetsControllerTest < ActionDispatch::IntegrationTest
     assert_dom "article#c#{changeset_comment.id}" do
       assert_dom "> small", :text => /^Comment from #{commenting_user.display_name}/
       assert_dom "a[href='#{user_path(commenting_user)}']"
+      assert_dom "a[href='#c#{changeset_comment.id}'][title='Link to this comment']"
     end
   end
 
